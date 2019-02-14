@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+body {background-color: lightgreen;}
+</style>
+
+<title>HTML Project</title>
+
+</head>
+
+
+<body>
+
+<h1 style="font-family:verdana;text-align:center;">Customer Information</h1>
+<p>Please input your first name, your last name and your email.</p>
+
+
+<form action="/action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" value=" ">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value=" ">
+  <br>
+    Email:<br>
+  <input type="text" name="email" value=" ">
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>Thank you!</p>
+
+
+</body>
+</html>
